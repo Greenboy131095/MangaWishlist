@@ -1,0 +1,52 @@
+.chat{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px;
+    height: 70px;
+    margin: 10px;
+    border-bottom: 1px solid #fafafa;
+}
+.chat_details{
+  flex:1;
+}
+
+a{
+  text-decoration: none;
+}
+.chat_details >p{
+    color:gray;
+}
+
+.chat_image{
+  margin-right:20px;
+}
+img{
+  width:100%;
+}
+.abc{
+  top:400px
+}
+.card {
+    
+  max-width:300px;
+  margin: auto;
+  text-align: center;
+  width: 300px;
+  height:300px;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  

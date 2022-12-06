@@ -1,0 +1,166 @@
+.header1{
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search_manga{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the search field */
+  form.search_manga input[type=text] {
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 15px;
+    border-radius:10px ;
+    border: 1px solid grey;
+    float: left;
+    height: 50px;
+    width: 300px;
+    background: #f1f1f1;
+  }
+  
+  /* Style the submit button */
+  form.search_manga button {
+    float: left;
+    width: 70px;
+    height: 50px;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    border-radius: 10px;
+    font-size: 14px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  .header_icon1{
+    margin-left:1px;
+    float: left;
+    width: 70px;
+    height: 50px;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    border-radius: 10px;
+    font-size: bold 10px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.search_manga button:hover {
+    background: #0b7dda;
+  }
+  
+  .nav-logo {
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #151617;
+  padding: 1rem 1.5rem;
+}
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  margin-left: 3rem;
+}
+
+.nav-link{
+  font-size: 19px;
+
+  color: white;
+}
+
+.nav-link:hover{
+  color: #1ae5f7;
+}
+.hamburger {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
+
+.nav-menu {
+  position: fixed;
+  left: -100%;
+  top: 5rem;
+  flex-direction: column;
+  background-color: #3d3d3d;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  transition: 0.3s;
+
+}
+
+.nav-menu.active {
+  left: 0;
+}
+
+.nav-item {
+  margin: 2.5rem 0;
+}
+
+.hamburger {
+  display: block;
+  cursor: pointer;
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  -webkit-transform: translateY(8px) rotate(45deg);
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+  -webkit-transform: translateY(-8px) rotate(-45deg);
+  transform: translateY(-8px) rotate(-45deg);
+}

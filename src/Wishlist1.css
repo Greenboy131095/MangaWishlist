@@ -1,0 +1,47 @@
+.card{
+    
+    max-height:25vh;
+    max-width: 20vw;
+    border-radius: 20px;
+    background-size:cover;
+   
+    
+
+}
+.pair_buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button1{
+    max-width: 200px;
+    max-height: 100px;
+    background-color: black;
+
+}
+.tinderCards_cardContainer{
+    width:100%;
+    display: block;
+    justify-content:center;
+    height: 100%;
+    position:relative;
+    top:100px;
+   
+}
+.column1{
+display: flex;
+width: 100%;
+justify-content: center;
+}
+.manga_title{
+   margin:0px;
+   padding: 10px;
+  
+}
+.manga_title1{
+    margin:0px;
+    padding: 10px;
+   
+ }
+
+

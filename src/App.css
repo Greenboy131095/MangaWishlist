@@ -1,0 +1,18 @@
+.container{
+    background-color: black;
+    position:relative;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+}
+.line1{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.line2{
+    display:flex;
+    justify-content: center;
+}
